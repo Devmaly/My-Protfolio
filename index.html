@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <button class="tablink" onclick="openPage('Home', this, 'rgb(15, 14, 14)')" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="openPage('Work', this, 'rgb(112, 2, 52)')">Works</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'rgb(5, 5, 92)')">Contact</button>
+    <button class="tablink" onclick="openPage('About', this, 'rgb(102, 13, 3)')">About</button>
+
+    <div id="Home" class="tabcontent">
+        <div class="home_content">
+            <div class="image-cont"> </div>
+            <div class="header">
+                <h1 class="head">Myself<span class="name"><br>Devmalya De,</span></br>Full Stack</br>Web Developer</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="Work" class="tabcontent">
+        <h2>My Projects</h2>
+        <div class="p">
+            <div class="pa">
+                <div class="p1">
+                    <a href="#" class="picture"> <img src="netflix.png.png" alt="netflix"
+                            style="width:150px;height:100px"></a>
+                    <p class="para1">Netflix Demo Page </br></p></br>
+                </div>
+                <div class="p2">
+                    <a href="#" class="picture"><img
+                            src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/63244521d800441946d5a41f/screenshot_2022-09-16-09-43-04-0000.png"
+                            alt="highliter" style="width:150px;height:100px;"></a>
+                    <p class="para2">Word Highliter</p>
+                </div>
+            </div>
+            <div class="pb">
+                <div class="p3">
+                    <a href="#" class="picture">
+                        <img src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6379d868bd8944045a0dcd28/screenshot_2022-11-20-07-34-07-0000.png"
+                            alt="tribute" style="width:150px;height:100px;">
+                    </a>
+                    <p class="para3">A Tribute Site</p>
+                </div>
+                <div class="p4">
+                    <a href="#" class="picture">
+                        <img src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/62c7b679174d743995776713/screenshot_2022-07-08-04-45-53-0000.png"
+                            alt="product" style="width:150px;height:100px;">
+                    </a>
+                    <p class="para4">A Product Website</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <div class="conta">
+            <div class="wrapper">
+                <div class="lid one"></div>
+                <div class="lid two"></div>
+                <div class="envelope"></div>
+                <div class="letter">
+                    <p><span class="bold">Address:</span> Arambagh,Hooghly,West Bengal<br><span class="bold">Email:</span> devmalyade420@gmail.com<br><br><span class="bold">Ph No:</span> 7908988456</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+    </div>
+
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
